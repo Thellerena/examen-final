@@ -1,0 +1,132 @@
+iframe{
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 0px;
+    height: 400px;
+}
+
+.contacto{
+    margin: 0px 12px;
+    display: flex;
+    padding: 18px;
+    border-left: solid 4px #d7b47465;
+    border-right: solid 4px #d7b47465;
+}
+
+.form-input{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-maps-mobile{
+    margin-top: 30px;
+}
+
+
+#titulo-contacto{
+    color: #011627ff;
+    font-family: 'Josefin Slab', serif;
+    font-size: 35px;
+    letter-spacing: 5px;
+
+}   
+
+#info-contacto{
+    display: flex; 
+}
+
+#info-telefono{
+    color: #D7B474;
+    text-align: end;
+    font-family: 'Cormorant', serif; 
+
+}
+
+#info-email{
+    margin-left: 20px;
+}
+
+#datos{
+    color: #011627ff;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.col-form{
+    width: 100vw;
+}
+
+
+@media screen and (min-width: 992px){
+
+    iframe{
+        border: solid 1px black;
+        border-radius: 15px;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .contacto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+        display: flex;
+        border: solid 4px #d7b47465;
+    }  
+   
+    .col-maps{
+        padding: 0px;
+        margin: 0px;
+        width: 100vw;
+        height: 500px;
+    }
+    
+    
+    #titulo-contacto{
+        color: #011627ff;
+        font-family: 'Josefin Slab', serif;
+        font-size: 35px;
+        letter-spacing: 5px;
+    
+    }   
+
+    
+    #info-telefono{
+        color: #D7B474;
+        text-align: end;
+        font-family: 'Cormorant', serif; 
+    
+    }
+    
+    #datos{
+        color: #011627ff;
+        font-family: 'Cormorant', serif;
+        font-size: 24px;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        margin-bottom: 0px;
+    }
+    
+    .col-form{
+        margin-left: 60px;
+        width: 100vw;
+    }
+ 
+}
+
+@media screen and (min-width: 1200px){
+
+    .col-maps{
+        padding: 0px;
+        margin: 0px;
+        width: 100vw;
+        height: 500px;
+    }
+
+}

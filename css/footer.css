@@ -1,0 +1,127 @@
+img.redes-footer {
+    width: 9px;
+    filter: invert(1);
+    margin: 1px;
+  } 
+
+#redes-footer{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    font-size: 6px;
+    padding: 5px 15px;
+    align-items: center;
+    background-color: #D7B474;
+}
+
+#Logo-footer-mobile{
+    width: 20px;
+}
+
+#Logo-footer{
+    display: none;
+}
+
+#direccion-footer{
+    list-style: none;
+    padding: 0px;
+    margin: auto;
+
+}
+
+#patron-final{
+    height: 5px;
+    background-image: url(../assets/images/Patronnavbar.png); 
+    background-repeat: repeat-x;
+    background-size:cover;
+    background-position: center;
+}
+
+
+@media (hover: hover) {
+
+}
+
+@media screen and (min-width: 992px){
+    #Logo-footer-mobile{
+        display: none;
+    }
+    
+    #Logo-footer{
+        display: block;
+        width: 50px;
+    }
+
+    .footer{
+    font-size: 9px;
+    padding: 30px 40px;
+    align-items: center;
+    }
+
+    
+    #direccion-footer{
+        list-style: none;
+        padding: 0px;
+        margin: auto;
+        margin-left: 30px;
+    }
+    
+    img.redes-footer {
+        width: 40px;
+        filter: invert(1);
+        margin-left: 10px;
+        margin-right: 50px;
+    } 
+
+    #redes-footer{
+        padding: 2px;
+        margin-top: 0px;
+        
+    }
+
+    #patron-final{
+        height: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #Logo-footer-mobile{
+        display: none;
+    }
+    
+    #Logo-footer{
+        display: block;
+        width: 70px;
+    }
+
+    .footer{
+    font-size: 14px;
+    }
+    
+    #direccion-footer{
+        list-style: none;
+        padding: 0px;
+        margin: auto;
+    }
+    
+    img.redes-footer {
+        width: 50px;
+        filter: invert(1);
+        margin-left: 20px;
+        margin-right: 60px;
+    } 
+
+    #redes-footer{
+        padding: 0px;
+        margin-top: 2px;
+        
+    }
+
+    #patron-final{
+        height: 20px;
+    }
+ }
+
+

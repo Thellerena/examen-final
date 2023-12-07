@@ -1,0 +1,163 @@
+body {
+    background-color: #fff1d7ff; 
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/Patronbody.svg); 
+    background-repeat:repeat-x repeat-y;
+    background-size: 400px;
+    overscroll-behavior: auto;      
+}
+
+#redes{
+    display: none;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/images/Patronnavbar.png); 
+    background-repeat: repeat-x;
+    background-size:cover;
+    background-position: center;
+}
+#compra{
+    display: none;
+} 
+
+#compra-mobile{
+    margin-left: 10px;
+    width: 24px;
+}   
+    
+#navbarNav{
+    justify-content: end; 
+}
+.navbar-toggler{
+    position: relative;
+}
+
+.nav-link{
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: 'Josefin Slab', serif;
+}
+
+#LogoNavBar{
+    display: none;
+}
+
+#LogoNavBarMobile{
+    margin-left: 10px;
+    width: 30px;
+    padding: 0px;
+}
+
+
+
+@media (hover: hover) {
+    .nav-link:hover{
+        text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    }
+
+    body::-webkit-scrollbar-thumb:hover{
+        background-color: #011627ff;
+    }
+    body::-moz-scrollbar-thumb:hover{
+        background-color: #011627ff;
+    }
+    body::-ms-scrollbar-thumb:hover{
+        background-color: #011627ff;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #compra{
+        display: block;
+        width: 40px;
+        margin-right: 10px;
+        width: 40px;
+    } 
+
+    #compra-mobile{
+        display: none;
+    }
+
+    .nav-link{
+        color: white;
+        font-size: 16px;
+    }
+
+    .nav-item{
+        padding-left: 10px;
+    }
+
+    #LogoNavBarMobile{
+        display: none;
+    }
+
+    #LogoNavBar{
+        display:block;
+        margin-left: 40px;
+        width: 166px;
+        height: 28px;
+    }
+
+    #compra{
+        margin: 0px 40px 0px 10px;
+        height: 28px;
+    } 
+
+    body::-webkit-scrollbar{
+        width: 18px;
+        background-color: #d7b47465;
+    }
+    body::-webkit-scrollbar-thumb{
+        background-color: #7d1218ff;
+        border-radius: 6px;
+    }
+    body::-moz-scrollbar{
+        width: 18px;
+        background-color: #d7b47465;
+    }
+    body::-moz-scrollbar-thumb{
+        background-color: #7d1218ff;
+        border-radius: 6px;
+    }
+    body::-ms-scrollbar{
+        width: 18px;
+        background-color: #d7b47465;
+    }
+    body::-ms-scrollbar-thumb{
+        background-color: #7d1218ff;
+        border-radius: 6px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-link{
+        color: white;
+        font-size: 18px;
+    }
+    .nav-item{
+        padding-left: 15px;
+    }
+
+    #LogoNavBarMobile{
+        display: none;
+    }
+
+    #LogoNavBar{
+        display:block;
+        margin-left: 80px;
+        width: 200px;
+        height: 34px;
+    }
+
+    #compra{
+        margin: 0px 80px 0px 15px;
+        height: 34px;
+    }   
+}
+
+

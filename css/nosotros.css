@@ -1,0 +1,251 @@
+.separador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background-image: url(../assets/images/Separador1.png); 
+    background-size:cover;
+    background-position: center;
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 15px;
+}
+
+.separador2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    background-image: url(../assets/images/Separador2.png); 
+    background-size:cover;
+    background-position: center;
+}
+
+
+.accordion-nosotros-body{
+    background-color: #fff1d7ff; 
+    background-image: url(../assets/images/Patronbody.svg); 
+    background-repeat:repeat-x repeat-y;
+    background-size: 1000px;
+    overscroll-behavior: auto;  
+    font-family: 'Josefin Slab', serif;
+}   
+ .accordion-nosotros{
+    background-color: #fff1d7ff; ;
+    background-image: url(../assets/images/Patronbody.svg); 
+    background-repeat:repeat-x repeat-y;
+    background-size: 500px;
+    overscroll-behavior: auto;   
+    font-weight: bold;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+}
+
+.accordion-nosotros:not(.colappsed){
+    background-color: #fff1d7ff; ;
+    background-image: url(../assets/images/Patronbody.svg); 
+    color: black;
+}
+
+.accordion-faq-title{
+    background-image:  url(../assets/images/Patronnavbar.png); 
+    background-repeat:repeat-x repeat-y;
+    background-size: 500px;
+    overscroll-behavior: auto;   
+    font-weight: bold;
+    font-family: 'Cormorant', serif;
+    font-size: 25px;
+    padding: 10px 0px 0px 20px;
+    text-decoration: underline;
+    color: white;
+}
+
+.accordion-faq-body{ 
+    background-image: url(../assets/images/Patronnavbar.png);  
+    background-size:cover;
+    background-position: center;
+    background-repeat:initial;
+    background-size: 3000px;
+    overscroll-behavior: auto;
+    color: white;   
+    font-weight: lighter;
+    font-family: 'Josefin Slab', serif;
+}
+ .accordion-faq{    
+    background-image: url(../assets/images/Patronbody.svg); 
+    background-repeat:repeat-x repeat-y;
+    background-size: 500px;
+    overscroll-behavior: auto;   
+    font-weight: bold;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.accordion-faq:not(.colappsed){
+    background-image: url(../assets/images/Patronnavbar.png);  
+    color: white;
+}
+
+
+@media screen and (min-width: 992px){
+
+    .separador{
+        font-size: 30px;
+        height: 60px;
+    }
+
+    .separador2{
+        height: 40px;
+    }
+
+    .sobre-nosotros{
+        font-family: 'Josefin Slab', serif;
+        font-size: 14px;
+        font-weight:bold;
+        width: 400px;
+        margin-left: 40px;
+        color: rgb(97, 97, 97);
+    }
+
+    .col-nosotros{
+        border-left: solid black 1px;
+        padding: 50px 0px 40px 0px;
+    }
+
+    .historia{
+        padding: 0px 0px 40px 0px
+    }   
+
+    .nosotros-titulo{
+        font-family: 'Josefin Slab', serif;
+        font-size: 30px;
+        font-weight: bolder;
+        width: 300px;
+        padding-left: 20px;
+        border-bottom: solid black 1px;
+    }
+
+    .col-faq-border{
+        background-image: url(../assets/images/Patronfaqboder.svg); 
+        background-size:cover;
+        background-position: center;
+        background-repeat:initial;
+        background-size: 500px;
+    }
+    .col-faq{
+        background-image: url(../assets/images/Patronnavbar.png); 
+        background-size:cover;
+        background-position: center;
+        background-repeat:initial;
+        background-size: 3000px; 
+        margin: 0px 40px;
+        height: 100%;
+        color: white;
+        text-align: center;
+    }
+
+    .faq-titulo{
+        font-family: 'Josefin Slab', serif;
+        font-size: 22px;
+        font-weight: bolder;
+        padding: 30px
+    }
+
+    .faq-preguntas{
+        font-family: 'Josefin Slab', serif;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 0px 3px 0px;
+    }
+
+    .faq-respuestas{
+        font-family: 'Josefin Slab', serif;
+        font-size: 14px;
+        font-weight: lighter;
+        margin: auto;
+        width: 320px;
+    }
+ 
+}
+
+@media screen and (min-width: 1200px){
+
+    #nosotros-tablet{
+        display: block;
+    }
+
+    .sobre-nosotros{
+        font-family: 'Josefin Slab', serif;
+        font-size: 16px;
+        font-weight:bold;
+        width: 450px;
+        margin-left: 40px;
+        color: rgb(97, 97, 97);
+    }
+
+
+
+    .col-nosotros{
+        border-left: solid black 1px;
+        padding: 50px 0px 40px 0px;
+    }
+
+    .historia{
+        padding: 0px 0px 40px 0px
+    }   
+
+    .nosotros-titulo{
+        font-family: 'Josefin Slab', serif;
+        font-size: 32px;
+        font-weight: bolder;
+        width: 450px;
+        padding-left: 20px;
+        border-bottom: solid black 1px;
+    }
+
+    .col-faq-border{
+        background-image: url(../assets/images/Patronfaqboder.svg); 
+        background-size:cover;
+        background-position: center;
+        background-repeat:initial;
+        background-size: 500px;
+    }
+    .col-faq{
+        background-image: url(../assets/images/Patronnavbar.png); 
+        background-size:cover;
+        background-position: center;
+        background-repeat:initial;
+        background-size: 3000px; 
+        margin: 0px 40px;
+        height: 100%;
+        color: white;
+        text-align: center;
+    }
+
+    .faq-titulo{
+        font-family: 'Josefin Slab', serif;
+        font-size: 32px;
+        font-weight: bolder;
+        letter-spacing: 7px;
+        padding: 40px 0px;
+    }
+
+    .faq-preguntas{
+        font-family: 'Josefin Slab', serif;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 20px 0px;
+    }
+
+    .faq-respuestas{
+        font-family: 'Josefin Slab', serif;
+        font-size: 14px;
+        font-weight: normal;
+        margin: auto;
+        width: 400px;
+    }
+ 
+}
