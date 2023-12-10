@@ -76,7 +76,6 @@ h1{
         font-size: 20px;
     }
 
-
     
     .separador-carrusel{
         border-bottom: solid 3px #D7B474;
@@ -106,12 +105,12 @@ h1{
         font-size: 24px;
     }
     
-    
     #separador-carrusel{
         border-bottom: solid 6px #D7B474;
         padding: 0px;
         margin: 0px;
-    }
+    }    
+  
     
     
 }
