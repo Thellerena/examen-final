@@ -54,7 +54,6 @@
     margin-bottom: 5px;
     font-family: 'Josefin Slab', serif;
     font-weight: bolder;
-    letter-spacing: 7px;
 }
 
 .card-img-top{
@@ -74,7 +73,9 @@
 .card-text{
     font-family: 'Josefin Slab', serif;
     font-size: 13px;
+    text-align: justify;
 }
+
 
 @media (hover: hover) {
     .button-contact:hover{
@@ -131,13 +132,13 @@
         padding: 0px 40px;
     }
 
-
+    
     .button-contact{
         background-color: #011627ff ;
         color: #D7B474;
         margin-bottom: 20px;
         margin-top: 20px;
-        font-size: 24px;
+        font-size: 20px;
     }
 
 
@@ -158,6 +159,7 @@
     .card-text{
         font-family: 'Josefin Slab', serif;
         font-size: 15px;
+        text-align: justify;
     }
 
 }   
@@ -175,6 +177,7 @@
     .card-text{
         font-family: 'Josefin Slab', serif;
         font-size: 18px;
+        text-align: justify;
     }
   
 }
