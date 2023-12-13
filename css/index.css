@@ -7,28 +7,70 @@ body {
     background-size: 400px;
     overscroll-behavior: auto;      
 }
+/* Estilos fuentes edith prieto */
+h1, .h1{ font-family: 'Cormorant', serif; font-size: 28px; text-decoration: none; }
 
-#redes{
-    display: none;
+h2, .h2{font-family: 'Cormorant', serif; font-size: 24px; text-decoration: none; }
+
+h3, .h3{ font-family: 'Cormorant', serif; font-size: 22x; text-decoration: none; }
+
+h4, .h4{font-family: 'Cormorant', serif; font-size: 20px; text-decoration: none; }
+
+h5, .h5{ font-family: 'Cormorant', serif; font-size: 18px; text-decoration: none; }
+
+h6, .h6{ font-family: 'Cormorant', serif; font-size: 16px; text-decoration: none; }
+
+p, .p{ font-family: 'Cormorant', serif; font-size: 14px; text-decoration: none; }
+
+.floating-button {
+  position: fixed;
+  bottom: 80px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  box-shadow: 0 70px 50px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  transition: transform 0.3s ease;
 }
 
-#menu{
-    display: flex;
-    align-items: center;
-    background-image: url(../assets/images/Patronnavbar.png); 
-    background-repeat: repeat-x;
-    background-size:cover;
-    background-position: center;
-}
-#compra{
-    display: none;
-} 
+.floating-button:hover {transform: scale(1.3);}
 
-#compra-mobile{
-    margin-left: 10px;
-    width: 24px;
-}   
-    
+.floating-button img.whatsapp-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  align-items: center;
+  margin: auto;
+}
+
+.scroll-to-top {
+  position: fixed;
+  font-size: 14px;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 50px;
+}
+
+.no-mostrar{
+    display: inline-block;
+}
+
+.navbar-brand img{
+    height: 5px;
+}
+   
 #navbarNav{
     justify-content: end; 
 }
@@ -37,127 +79,54 @@ body {
 }
 
 .nav-link{
-    color: white;
-    font-size: 12px;
-    margin-left: 10px;
     font-family: 'Josefin Slab', serif;
 }
 
-#LogoNavBar{
-    display: none;
-}
-
-#LogoNavBarMobile{
-    margin-left: 10px;
-    width: 30px;
-    padding: 0px;
+/*---header---*/
+.navbar-brand img{
+    height: 75px;
 }
 
 
+@media (max-width: 991px) {
 
-@media (hover: hover) {
-    .nav-link:hover{
-        text-shadow: 2px 2px 5px rgb(255, 255, 255);
-    }
 
-    body::-webkit-scrollbar-thumb:hover{
-        background-color: #011627ff;
-    }
-    body::-moz-scrollbar-thumb:hover{
-        background-color: #011627ff;
-    }
-    body::-ms-scrollbar-thumb:hover{
-        background-color: #011627ff;
-    }
-}
-
-@media screen and (min-width: 992px){
-    #compra{
-        display: block;
-        width: 40px;
-        margin-right: 10px;
-        width: 40px;
-    } 
-
-    #compra-mobile{
+    .no-mostrar{
         display: none;
-    }
-
-    .nav-link{
-        color: white;
-        font-size: 16px;
+        color: transparent;      
     }
 
     .nav-item{
-        padding-left: 10px;
+        padding-left: 14px;
     }
 
-    #LogoNavBarMobile{
-        display: none;
+    .navbar-brand img{
+        height: 25px;
+        width: auto;
     }
 
-    #LogoNavBar{
-        display:block;
-        margin-left: 40px;
-        width: 166px;
-        height: 28px;
-    }
 
-    #compra{
-        margin: 0px 40px 0px 10px;
-        height: 28px;
-    } 
-
-    body::-webkit-scrollbar{
-        width: 18px;
-        background-color: #d7b47465;
-    }
-    body::-webkit-scrollbar-thumb{
-        background-color: #7d1218ff;
-        border-radius: 6px;
-    }
-    body::-moz-scrollbar{
-        width: 18px;
-        background-color: #d7b47465;
-    }
-    body::-moz-scrollbar-thumb{
-        background-color: #7d1218ff;
-        border-radius: 6px;
-    }
-    body::-ms-scrollbar{
-        width: 18px;
-        background-color: #d7b47465;
-    }
-    body::-ms-scrollbar-thumb{
-        background-color: #7d1218ff;
-        border-radius: 6px;
-    }
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 991px) {
+    .navbar-brand img{
+        height: 35px;
+    }
     .nav-link{
         color: white;
-        font-size: 18px;
+        font-size: 16px;
     }
     .nav-item{
         padding-left: 15px;
     }
 
-    #LogoNavBarMobile{
-        display: none;
-    }
-
-    #LogoNavBar{
+    .LogoNavBar{
         display:block;
         margin-left: 80px;
         width: 200px;
         height: 34px;
     }
-
-    #compra{
-        margin: 0px 80px 0px 15px;
-        height: 34px;
-    }   
+  
 }
 
 
