@@ -31,19 +31,13 @@
     background-color: #fff1d7ff;
 }
 
-/* Estilos de los cards */
 .card-group{
     margin: 0px 10px;
-    /*border-left: solid rgb(88,88,88) 1px; 
-    border-right: solid rgb(88, 88, 88) 1px;*/
-    border:0px;
-    
-    
+    border:0px; 
 }
 
 .card{
     background-color: transparent;
-    /*border: solid rgb(146, 146, 146) 1px;*/
     border:0px;
     border-radius: 0;
     padding: 0px 15px;
@@ -118,25 +112,18 @@
         display: none;
     }
 
-    /* Estilos de los cards */
     .card-group{
         margin: 0px 40px;
-        border:0px;
-        /*border-left: solid rgb(88,88,88) 1px; 
-        border-right: solid rgb(88, 88, 88) 1px;*/
-        
-        
+        border:0px; 
     }
 
     .card{
         background-color: transparent;
         border:0px;
-        /*border: solid rgb(146, 146, 146) 1px;*/
         border-radius: 0;
         padding: 0px 40px;
     }
 
-    
     .button-contact{
         background-color: #011627ff ;
         color: #D7B474;

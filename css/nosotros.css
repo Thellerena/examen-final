@@ -4,7 +4,6 @@
     justify-content: center;
     height: 30px;
     background-color: #220B0B;
-    /*background-image: url(../assets/images/Separador1.png); */
     background-size:cover;
     background-position: center;
     color: white;
@@ -24,7 +23,6 @@
     background-size:cover;
     background-position: center;
 }
-
 
 .accordion-nosotros-body{
     background-color: #fff1d7ff; 
@@ -113,7 +111,6 @@
     }
 
     .col-nosotros{
-        /*border-left: solid black 1px;*/
         padding: 50px 0px 40px 0px;
     }
 
@@ -138,7 +135,6 @@
         background-size: 500px;
     }
     .col-faq{
-        /*background-image: url(../assets/images/Patronnavbar.png); */
         background: linear-gradient(#9D0000, #DF483C);
         background-size:cover;
         background-position: center;
@@ -189,10 +185,7 @@
         color: rgb(97, 97, 97);
     }
 
-
-
     .col-nosotros{
-        /*border-left: solid black 1px;*/
         border:0px;
         padding: 50px 0px 40px 0px;
     }
@@ -218,7 +211,6 @@
         background-size: 500px;
     }
     .col-faq{
-        /*background-image: url(../assets/images/Patronnavbar.png); */
         background-size:cover;
         background-position: center;
         background-repeat:initial;

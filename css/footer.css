@@ -13,7 +13,6 @@ img.redes-footer {
     top: 20px;
 }
 
-
 .footer{
     display: flex;
     align-items: center;
@@ -41,16 +40,12 @@ img.redes-footer {
 
 .patron-final{
     height: 5px;
-    /*background-image: url(../assets/images/Patronnavbar.png); */
     background-color: #220B0B;
     background-repeat: repeat-y;
     background-size:100%;
     background-position: center;
    
 }
-
-
-
 
 @media screen and (max-width: 992px){
     .Logo-footer{
