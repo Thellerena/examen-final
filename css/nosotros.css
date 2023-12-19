@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: center;
     height: 30px;
-    background-image: url(../assets/images/Separador1.png); 
+    background-color: #220B0B;
+    /*background-image: url(../assets/images/Separador1.png); */
     background-size:cover;
     background-position: center;
     color: white;
@@ -106,13 +107,13 @@
         font-family: 'Josefin Slab', serif;
         font-size: 14px;
         font-weight:bold;
-        width: 400px;
+        width: 400px; 
         margin-left: 40px;
         color: rgb(97, 97, 97);
     }
 
     .col-nosotros{
-        border-left: solid black 1px;
+        /*border-left: solid black 1px;*/
         padding: 50px 0px 40px 0px;
     }
 
@@ -137,7 +138,8 @@
         background-size: 500px;
     }
     .col-faq{
-        background-image: url(../assets/images/Patronnavbar.png); 
+        /*background-image: url(../assets/images/Patronnavbar.png); */
+        background: linear-gradient(#9D0000, #DF483C);
         background-size:cover;
         background-position: center;
         background-repeat:initial;
@@ -190,7 +192,8 @@
 
 
     .col-nosotros{
-        border-left: solid black 1px;
+        /*border-left: solid black 1px;*/
+        border:0px;
         padding: 50px 0px 40px 0px;
     }
 
@@ -215,7 +218,7 @@
         background-size: 500px;
     }
     .col-faq{
-        background-image: url(../assets/images/Patronnavbar.png); 
+        /*background-image: url(../assets/images/Patronnavbar.png); */
         background-size:cover;
         background-position: center;
         background-repeat:initial;

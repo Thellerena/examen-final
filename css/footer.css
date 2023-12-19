@@ -41,7 +41,8 @@ img.redes-footer {
 
 .patron-final{
     height: 5px;
-    background-image: url(../assets/images/Patronnavbar.png); 
+    /*background-image: url(../assets/images/Patronnavbar.png); */
+    background-color: #220B0B;
     background-repeat: repeat-y;
     background-size:100%;
     background-position: center;
@@ -144,7 +145,7 @@ img.redes-footer {
     }
     .texto-footer{
         justify-content: center;
-        font-size: 12px;
+        font-size: 14px;
         color: #D7B474;
         padding: 10px;
 

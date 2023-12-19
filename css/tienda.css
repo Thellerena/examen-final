@@ -34,15 +34,17 @@
 /* Estilos de los cards */
 .card-group{
     margin: 0px 10px;
-    border-left: solid rgb(88,88,88) 1px; 
-    border-right: solid rgb(88, 88, 88) 1px;
+    /*border-left: solid rgb(88,88,88) 1px; 
+    border-right: solid rgb(88, 88, 88) 1px;*/
+    border:0px;
     
     
 }
 
 .card{
     background-color: transparent;
-    border: solid rgb(146, 146, 146) 1px;
+    /*border: solid rgb(146, 146, 146) 1px;*/
+    border:0px;
     border-radius: 0;
     padding: 0px 15px;
     width: 150;
@@ -119,15 +121,17 @@
     /* Estilos de los cards */
     .card-group{
         margin: 0px 40px;
-        border-left: solid rgb(88,88,88) 1px; 
-        border-right: solid rgb(88, 88, 88) 1px;
+        border:0px;
+        /*border-left: solid rgb(88,88,88) 1px; 
+        border-right: solid rgb(88, 88, 88) 1px;*/
         
         
     }
 
     .card{
         background-color: transparent;
-        border: solid rgb(146, 146, 146) 1px;
+        border:0px;
+        /*border: solid rgb(146, 146, 146) 1px;*/
         border-radius: 0;
         padding: 0px 40px;
     }
