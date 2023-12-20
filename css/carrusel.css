@@ -1,83 +1,83 @@
-.carousel-indicators button{
+.carousel-indicators button {
     width: 5px !important;
     height: 5px !important;
     border-radius: 100% !important;
 }
 
-.carousel-caption{
+.carousel-caption {
     padding: 20px 25px
 }
 
-h1{
+h1 {
     font-family: 'Cormorant', serif; 
     font-weight: bold;
     font-size: 13px;
     margin-bottom: 5px;
 }
 
-.texto-carrusel,.texto-producto{
+.texto-carrusel,.texto-producto {
     display: none;
 }
 
-.link-producto{
+.link-producto {
     text-decoration: none;
     color: white;
 }
 
-.tipo-producto{
+.tipo-producto {
     font-size: 12px;
     font-family: 'Josefin Slab', serif;
     font-weight: lighter;
     display: block;
 }
 
-.separador-carrusel{
+.separador-carrusel { 
     border-bottom: solid 3px #D7B474;
     padding: 0px;
 }
 
 
-@media screen and (min-width: 992px){
-    .carousel-indicators button{
+@media screen and (min-width: 992px) {
+    .carousel-indicators button {
         width: 10px !important;
         height: 10px !important;
     }
  
-    .carousel-caption{
+    .carousel-caption {
         padding: 20px 0px
     }
 
-    h1{
+    h1 {
         font-family: 'Cormorant', serif; ;
         font-weight: bold;
         font-size: 50px;
         margin-bottom: 5px;
     }
     
-    .texto-carrusel,.texto-producto{
+    .texto-carrusel,.texto-producto {
         display: block;
     }
 
-    .texto-carrusel{
+    .texto-carrusel {
         font-size: 20px;
         font-family: 'Josefin Slab', serif;
         font-weight: lighter;
     }
 
-    .texto-producto{
+    .texto-producto {
         font-weight: bold;
         font-family: 'Cormorant', serif;
         font-size: 20px;
     }
 
-    .tipo-producto{
+    .tipo-producto {
         font-weight: lighter;
         font-family: 'Josefin Slab', serif;
         font-size: 20px;
     }
 
     
-    .separador-carrusel{
+    .separador-carrusel {
         border-bottom: solid 3px #D7B474;
         padding: 0px;
         margin: 0px 0px 40px 0px;
@@ -86,13 +86,13 @@ h1{
 
 }   
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
 
-    .carousel-indicators button{
+    .carousel-indicators button {
         width: 12px !important;
         height: 12px !important;
     }
-    .carousel-caption{
+    .carousel-caption {
         width: auto;
     }
     
@@ -101,11 +101,11 @@ h1{
         margin-bottom: 5px;
     }
 
-    .texto-carrusel{
+    .texto-carrusel {
         font-size: 24px;
     }
     
-    #separador-carrusel{
+    #separador-carrusel {
         border-bottom: solid 6px #D7B474;
         padding: 0px;
         margin: 0px;

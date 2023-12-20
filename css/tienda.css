@@ -1,42 +1,42 @@
-.busqueda{
+.busqueda {
     display: flex;
     padding: 5px 0px;
     border-bottom: solid black 1px;
     box-sizing: border-box;
 }
 
-.dropdown-option, .dropdown-item, .descripcion-info{
+.dropdown-option, .dropdown-item, .descripcion-info {
     font-size: 11px;
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
     
 }
 
-#info-icon{
+#info-icon {
     width: 20px;
     padding: 0px;
     
 }
 
-#info{
+#info {
     display: none;
 }
 
-.descripcion-info{
+.descripcion-info {
     padding: 13px !important;
     
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: #fff1d7ff;
 }
 
-.card-group{
+.card-group {
     margin: 0px 10px;
     border:0px; 
 }
 
-.card{
+.card {
     background-color: transparent;
     border:0px;
     border-radius: 0;
@@ -44,7 +44,7 @@
     width: 150;
 }
 
-.button-contact{
+.button-contact {
     background-color: #011627ff ;
     color: #D7B474;
     margin-bottom: 5px;
@@ -52,21 +52,21 @@
     font-weight: bolder;
 }
 
-.card-img-top{
+.card-img-top {
     margin: auto;
     margin-top: 15px;
     width: 200px;
 }
 
-.card-title  .card-text{
+.card-title  .card-text {
     text-align: center;
 }
 
-.card-title{
+.card-title {
     font-family: 'Cormorant', serif;
 }
 
-.card-text{
+.card-text {
     font-family: 'Josefin Slab', serif;
     font-size: 13px;
     text-align: justify;
@@ -74,21 +74,21 @@
 
 
 @media (hover: hover) {
-    .button-contact:hover{
+    .button-contact:hover {
         color: white;
         background-color: #7d1218ff ;
     }
     
-    .dropdown-item:hover{
+    .dropdown-item:hover {
         color: white;
         background-color: #7d1218ff ;
         width: auto;
     }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
 
-    .busqueda{
+    .busqueda {
         display: flex;
         padding: 15px 0px;
         border-bottom: solid black 1px;
@@ -104,27 +104,27 @@
         margin: 0px 15px;
     } 
 
-    #info{
+    #info {
         display: block;
     }
     
-    #button-info-icon{
+    #button-info-icon {
         display: none;
     }
 
-    .card-group{
+    .card-group {
         margin: 0px 40px;
         border:0px; 
     }
 
-    .card{
+    .card {
         background-color: transparent;
         border:0px;
         border-radius: 0;
         padding: 0px 40px;
     }
 
-    .button-contact{
+    .button-contact {
         background-color: #011627ff ;
         color: #D7B474;
         margin-bottom: 20px;
@@ -133,21 +133,21 @@
     }
 
 
-    .card-img-top{
+    .card-img-top {
         margin-top: 40px;
     }
 
-    .descripcion-info{
+    .descripcion-info {
         padding: 30px !important;
         
     }
 
-    .card-title{
+    .card-title {
         font-family: 'Cormorant', serif;
         font-size: 18px;
     }
 
-    .card-text{
+    .card-text {
         font-family: 'Josefin Slab', serif;
         font-size: 15px;
         text-align: justify;
@@ -155,17 +155,17 @@
 
 }   
 
-@media screen and (min-width: 1200px){
-    .card-img-top{
+@media screen and (min-width: 1200px) {
+    .card-img-top {
         width: 300px;
     }
 
-    .card-title{
+    .card-title {
         font-family: 'Cormorant', serif;
         font-size: 25px;
     }
 
-    .card-text{
+    .card-text {
         font-family: 'Josefin Slab', serif;
         font-size: 18px;
         text-align: justify;
@@ -173,8 +173,8 @@
   
 }
 
-@media screen and (min-width: 1440px){
-    .card-img-top{
+@media screen and (min-width: 1440px) {
+    .card-img-top {
         width: 100%;
     }
 }

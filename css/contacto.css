@@ -1,11 +1,11 @@
-iframe{
+iframe {
     border: solid 1px black;
     border-radius: 15px;
     padding: 0px;
     height: 400px;
 }
 
-.contacto{
+.contacto {
     margin: 0px 12px;
     display: flex;
     padding: 18px;
@@ -13,17 +13,31 @@ iframe{
     border-right: solid 4px #d7b47465;
 }
 
-.form-input{
+.btn-primary {
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+    color: #D7B474;
+    background-color: #011627ff;
+    border-color: #011627ff;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #7d1218ff;
+    border-color: #7d1218ff;
+}
+
+.form-input {
     margin: 0px;
     padding: 0px;
 }
 
-.col-maps-mobile{
+.col-maps-mobile {
     margin-top: 30px;
 }
 
 
-#titulo-contacto{
+#titulo-contacto {
     color: #011627ff;
     font-family: 'Josefin Slab', serif;
     font-size: 35px;
@@ -31,22 +45,22 @@ iframe{
 
 }   
 
-#info-contacto{
+#info-contacto {
     display: flex; 
 }
 
-#info-telefono{
+#info-telefono {
     color: #D7B474;
     text-align: end;
     font-family: 'Cormorant', serif; 
 
 }
 
-#info-email{
+#info-email {
     margin-left: 20px;
 }
 
-#datos{
+#datos {
     color: #011627ff;
     font-family: 'Cormorant', serif;
     font-size: 24px;
@@ -55,14 +69,14 @@ iframe{
     margin-bottom: 0px;
 }
 
-.col-form{
+.col-form {
     width: 100vw;
 }
 
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
 
-    iframe{
+    iframe {
         border: solid 1px black;
         border-radius: 15px;
         padding: 0px;
@@ -71,7 +85,7 @@ iframe{
         height: 100%;
     }
     
-    .contacto{
+    .contacto {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -80,7 +94,7 @@ iframe{
         border: solid 4px #d7b47465;
     }  
    
-    .col-maps{
+    .col-maps {
         padding: 0px;
         margin: 0px;
         width: 100vw;
@@ -88,7 +102,7 @@ iframe{
     }
     
     
-    #titulo-contacto{
+    #titulo-contacto {
         color: #011627ff;
         font-family: 'Josefin Slab', serif;
         font-size: 35px;
@@ -97,14 +111,14 @@ iframe{
     }   
 
     
-    #info-telefono{
+    #info-telefono {
         color: #D7B474;
-        text-align: end;
+        text-align: justify;
         font-family: 'Cormorant', serif; 
     
     }
     
-    #datos{
+    #datos {
         color: #011627ff;
         font-family: 'Cormorant', serif;
         font-size: 24px;
@@ -113,16 +127,16 @@ iframe{
         margin-bottom: 0px;
     }
     
-    .col-form{
+    .col-form {
         margin-left: 60px;
         width: 100vw;
     }
  
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
 
-    .col-maps{
+    .col-maps {
         padding: 0px;
         margin: 0px;
         width: 100vw;
