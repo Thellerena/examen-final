@@ -9,13 +9,11 @@
     font-size: 11px;
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
-    
 }
 
 #info-icon {
     width: 20px;
     padding: 0px;
-    
 }
 
 #info {
@@ -24,7 +22,6 @@
 
 .descripcion-info {
     padding: 13px !important;
-    
 }
 
 .dropdown-menu {
@@ -72,7 +69,6 @@
     text-align: justify;
 }
 
-
 @media (hover: hover) {
     .button-contact:hover {
         color: white;
@@ -87,7 +83,6 @@
 }
 
 @media screen and (min-width: 992px) {
-
     .busqueda {
         display: flex;
         padding: 15px 0px;
@@ -132,7 +127,6 @@
         font-size: 20px;
     }
 
-
     .card-img-top {
         margin-top: 40px;
     }
@@ -152,7 +146,6 @@
         font-size: 15px;
         text-align: justify;
     }
-
 }   
 
 @media screen and (min-width: 1200px) {
@@ -170,7 +163,6 @@
         font-size: 18px;
         text-align: justify;
     }
-  
 }
 
 @media screen and (min-width: 1440px) {

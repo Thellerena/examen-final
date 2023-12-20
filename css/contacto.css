@@ -36,13 +36,11 @@ iframe {
     margin-top: 30px;
 }
 
-
 #titulo-contacto {
     color: #011627ff;
     font-family: 'Josefin Slab', serif;
     font-size: 35px;
     letter-spacing: 5px;
-
 }   
 
 #info-contacto {
@@ -53,7 +51,6 @@ iframe {
     color: #D7B474;
     text-align: end;
     font-family: 'Cormorant', serif; 
-
 }
 
 #info-email {
@@ -72,7 +69,6 @@ iframe {
 .col-form {
     width: 100vw;
 }
-
 
 @media screen and (min-width: 992px) {
 
@@ -101,7 +97,6 @@ iframe {
         height: 500px;
     }
     
-    
     #titulo-contacto {
         color: #011627ff;
         font-family: 'Josefin Slab', serif;
@@ -110,7 +105,6 @@ iframe {
     
     }   
 
-    
     #info-telefono {
         color: #D7B474;
         text-align: justify;
@@ -135,12 +129,10 @@ iframe {
 }
 
 @media screen and (min-width: 1200px) {
-
     .col-maps {
         padding: 0px;
         margin: 0px;
         width: 100vw;
         height: 500px;
     }
-
 }

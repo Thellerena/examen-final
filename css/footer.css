@@ -2,7 +2,6 @@ img.redes-footer {
     width: 5px;
     filter: invert(1);
     margin: 1px;
-    
 } 
 
 #redes-footer {
@@ -18,8 +17,6 @@ img.redes-footer {
     align-items: center;
     background-color: #D7B474;
     justify-content: center;
-    
-
 }
 
 #Logo-footer-mobile {
@@ -28,14 +25,12 @@ img.redes-footer {
 
 #Logo-footer {
     display: none;
-
 }
 
 #direccion-footer {
     list-style: none;
     padding: 0px;
     margin: auto;
-
 }
 
 .patron-final {
@@ -44,7 +39,6 @@ img.redes-footer {
     background-repeat: repeat-y;
     background-size:100%;
     background-position: center;
-   
 }
 
 @media screen and (max-width: 992px) {
@@ -59,7 +53,6 @@ img.redes-footer {
     
     }
 
-    
     #direccion-footer {
         list-style: none;
         padding: 0px;
@@ -79,7 +72,6 @@ img.redes-footer {
     #redes-footer {
         padding: 2px;
         margin-top: 0px;
-        
     }
 
     .patron-final {
@@ -122,12 +114,10 @@ img.redes-footer {
     #redes-footer {
         padding: 0px;
         margin-top: 2px;
-        
     }
 
     .patron-final {
-        height: 50px;
-                
+        height: 50px;        
     }
 
     .patron-final P {
@@ -136,14 +126,12 @@ img.redes-footer {
         margin-left: 800px;
         margin-right: 800px;
         position: relative;
-
     }
     .texto-footer {
         justify-content: center;
         font-size: 14px;
         color: #D7B474;
         padding: 10px;
-
     }
  }
 

@@ -89,9 +89,7 @@
     color: white;
 }
 
-
 @media screen and (min-width: 992px) {
-
     .separador {
         font-size: 30px;
         height: 60px;
@@ -134,6 +132,7 @@
         background-repeat:initial;
         background-size: 500px;
     }
+
     .col-faq {
         background: linear-gradient(#9D0000, #DF483C);
         background-size:cover;
@@ -167,11 +166,9 @@
         margin: auto;
         width: 320px;
     }
- 
 }
 
 @media screen and (min-width: 1200px) {
-
     #nosotros-tablet {
         display: block;
     }
@@ -210,6 +207,7 @@
         background-repeat:initial;
         background-size: 500px;
     }
+
     .col-faq {
         background-size:cover;
         background-position: center;
@@ -243,6 +241,5 @@
         margin: auto;
         width: 400px;
     }
- 
 }
 
